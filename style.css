@@ -1,0 +1,520 @@
+@font-face {
+  font-family: "font-1";
+  src: url(./assets/font/Montserrat/Montserrat-Thin.ttf);
+}
+
+@font-face {
+  font-family: "font-2";
+  src: url(./assets/font/Montserrat/Montserrat-Medium.ttf);
+}
+
+/***********************************************************************
+*********************************  BODY  *******************************
+***********************************************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "font-2";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  border-radius: 0;
+}
+/***********************************************************************
+*********************************  HEADER  *******************************
+***********************************************************************/
+.navbar {
+  background: white;
+  margin: 0px 150px;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+.navbar li {
+  padding: 20px 0;
+  border: 4px solid transparent;
+}
+.navbar li:hover {
+  border-top: 4px solid rgb(92, 0, 145);
+  color: rgb(92, 0, 145);
+  cursor: pointer;
+  padding: 20px 0;
+}
+
+#fr-en {
+  border: 1px solid white;
+  background: rgba(128, 128, 128, 0.24);
+  border-radius: 20px;
+  padding: 8px 10px;
+}
+
+/***********************************************************************
+*********************************  SECTION 1  *******************************
+***********************************************************************/
+
+.img-1 {
+  background: url(./assets/img/bg.jpg) center/cover;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloc-img-1 {
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.bloc-img-1 h1 {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.bloc-img-1 button {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  padding: 15px 50px;
+  margin-left: 130px;
+  margin-top: 30px;
+  align-items: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.bloc-img-1 button:hover {
+  background: white;
+  color: rgb(54, 54, 54);
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+/***********************************************************************
+*********************************  SECTION 2  *******************************
+***********************************************************************/
+
+.bloc-2 {
+  background: white;
+  margin: 40px 10%;
+}
+
+#p-bloc-2 {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/***********************************************************************
+*********************************  SECTION 3  *******************************
+***********************************************************************/
+
+.bloc-3 {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  text-align: center;
+}
+
+#gbs,
+#ga,
+#gg {
+  padding: 0 60px;
+}
+
+#gbs h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+#gbs p {
+  margin-bottom: 30px;
+}
+#gbs button {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 30px;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+#gbs button:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+#ga h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+#ga p {
+  margin-bottom: 30px;
+}
+#ga button {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 30px;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+#ga button:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+#gg h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+#gg p {
+  margin-bottom: 30px;
+}
+#gg button {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 30px;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+#gg button:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+/***********************************************************************
+*********************************  SECTION 4  ***************************
+***********************************************************************/
+.bloc-4 {
+  background: rgba(212, 209, 209, 0.24);
+  min-height: 500px;
+  padding-bottom: 100px;
+}
+
+.bloc-4-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bloc-4-top h2 {
+  letter-spacing: 2px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+.bloc-4-top p {
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+
+.bloc-4-top h2,
+button {
+  margin-top: 100px;
+}
+
+.bloc-4-top p,
+button {
+  margin-bottom: 50px;
+}
+
+.bloc-4-top button {
+  border: 1px solid rgb(0, 0, 0);
+  background: transparent;
+  color: rgb(0, 0, 0);
+  padding: 15px 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.bloc-4-top button:hover {
+  background: rgb(54, 54, 54);
+  color: white;
+  border: 1px solid rgb(54, 54, 54);
+  cursor: pointer;
+}
+
+.bloc-4-bottom {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.img-bloc-4 {
+  margin: 10px auto;
+}
+
+.bloc-4-1 h3 {
+  font-size: 1rem;
+}
+.bloc-4-1 p {
+  margin: 10px auto;
+  font-size: 0.7rem;
+  padding: 0 100px;
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+
+.bloc-4-1 a {
+  color: rgb(92, 0, 145);
+  font-size: 0.8rem;
+}
+.bloc-4-1 a:hover {
+  color: rgba(158, 84, 201, 0.493);
+}
+/***********************************************************************
+*********************************  FOOTER  ***************************
+***********************************************************************/
+
+/***********************************************************************
+*********************************  FOOTER-TOP  ***************************
+***********************************************************************/
+
+.top-1 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin: 70px 0;
+}
+#logo-gc {
+  margin: 0 auto;
+}
+#ip h3,
+h4 {
+  margin-bottom: 20px;
+}
+
+#ip h3 {
+  font-size: 1rem;
+}
+
+#ip h4 {
+  font-size: 0.8rem;
+  color: rgb(92, 0, 145);
+  font-weight: 900;
+}
+
+#parents h3 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+#parents p {
+  font-size: 0.8rem;
+  margin-right: 250px;
+  text-align: left;
+  line-height: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#parents h4 {
+  font-size: 0.8rem;
+  color: rgb(92, 0, 145);
+}
+#nous-contacter {
+  margin-bottom: 30px;
+}
+#nous-contacter h3 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+#nous-contacter a {
+  font-size: 0.8rem;
+  color: black;
+  font-weight: bold;
+}
+
+.nous-suivre h3 {
+  font-size: 1rem;
+}
+
+.nous-suivre ul {
+  display: flex;
+}
+
+.nous-suivre li {
+  padding: 10px;
+}
+
+.copyright {
+  margin-top: 20px;
+}
+
+.copyright h4 {
+  margin-bottom: 0;
+  font-size: 0.7rem;
+}
+
+/***********************************************************************
+*********************************  FOOTER-Trait ***************************
+***********************************************************************/
+
+#trait-footer {
+  border: 1px solid rgba(128, 128, 128, 0.212);
+  width: 60%;
+  margin: 0 auto;
+}
+
+/***********************************************************************
+*********************************  FOOTER-TOP-2 ***************************
+***********************************************************************/
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 40px auto;
+}
+.text-grid-footer {
+  align-items: center;
+  margin-left: 150px;
+}
+
+.text-grid-footer h3 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.text-grid-footer h4 {
+  font-size: 1rem;
+}
+
+.picto-top ul {
+  display: flex;
+}
+
+.picto-top li {
+  padding: 10px;
+}
+
+/***********************************************************************
+*********************************  FOOTER-BOTTOM **********************
+***********************************************************************/
+
+.footer-bottom {
+  background: black;
+  color: white;
+}
+
+#titre-bottom {
+  text-align: center;
+}
+
+#titre-bottom h3 {
+  padding: 40px;
+}
+
+.picto-bottom ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20%;
+}
+
+/***********************************************************************
+*********************************  RESPONSVE****************************
+***********************************************************************/
+
+@media screen and (max-width: 1300px) {
+  .navbar ul {
+    font-size: 0.8rem;
+  }
+  .navbar {
+    margin: 0px 100px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar ul {
+    display: none;
+  }
+  .bloc-3 {
+    display: block;
+  }
+  .top-2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 880px) {
+  .bloc-4-top {
+    display: block;
+    text-align: center;
+  }
+  .bloc-4-top button {
+    margin-top: 40px;
+  }
+  .bloc-4-top h2 {
+    margin: 0;
+    padding-top: 30px;
+  }
+  .bloc-4-top p {
+    margin: 0;
+  }
+  .bloc-4-top-1 {
+    text-align: center;
+  }
+  .bloc-4-bottom {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .bloc-img-1 h1 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .top-1 {
+    display: block;
+    text-align: center;
+  }
+  #parents p {
+    margin: 0 20%;
+    text-align: center;
+  }
+  .nous-suivre ul {
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 600px) {
+  .bloc-img-1 img {
+    height: 200px;
+    margin: 0 auto;
+    width: 98%;
+  }
+  .bloc-img-1 button {
+    padding: 10px 30px;
+    margin: 0 15%;
+  }
+  .footer-bottom {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bloc-img-1 img {
+    height: 180px;
+    margin: 0 auto;
+  }
+}
